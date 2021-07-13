@@ -13,3 +13,4 @@ Cargo.lock
 
 /hello/target/
 /.idea/
+/.vs/
