@@ -14,3 +14,4 @@ Cargo.lock
 /hello/target/
 /.idea/
 /.vs/
+/clippy/target/
