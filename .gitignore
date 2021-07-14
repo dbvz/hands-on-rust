@@ -11,8 +11,7 @@ Cargo.lock
 
 .DS_Store
 
-/hello/target/
-/clippy/target/
+/**/target/
 /**/.idea/
 /.idea/
 /.vs/
