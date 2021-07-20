@@ -6,12 +6,7 @@ fn what_is_your_name() -> String {
     stdin()
         .read_line(&mut your_name)
         .expect("Failed to read line");
-    your_name;
-    if your_name == "bert" || your_name == "steve" {
-        println!("Welcome.");
-    }   else {
-        println!("Sorry, you are not on the list.")
-    }
+    your_name
 }
 
 fn main() {
