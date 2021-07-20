@@ -7,10 +7,16 @@ fn what_is_your_name() -> String {
         .read_line(&mut your_name)
         .expect("Failed to read line");
     your_name
+        .trim()
+        .to_lowercase()
 }
 
 fn main() {
     println!("Hello, what's your name?");
     let name = what_is_your_name();
-    println!("Hello, {}", name);
+    if name == "bert" {
+        println!("Welcome.");
+    } else {
+        println!("Sorry, you are not on the list.");
+    }
 }
